@@ -6,7 +6,7 @@
     $xmlfile = file_get_contents($path);
     // Convert xml string into an object
     $new = simplexml_load_string($xmlfile);
-    $con = json_encode($xml);
+    $con = json_encode($new);
     // Convert into associative array
     $newArr = json_decode($con, true);
     $rawarray=$newArr['channel']['item'];
