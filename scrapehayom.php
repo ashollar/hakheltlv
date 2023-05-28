@@ -8,7 +8,7 @@
 
     $xml = simplexml_import_dom($dom);
 
-    print $xml;
+    var_dump($xml);
 
 
 ?>
