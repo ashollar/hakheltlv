@@ -4,13 +4,11 @@
     $path="https://chabadlibrary.org/books/admur/hymym/".$month."/".$day.".htm";
     echo $path;
 
-    $dom = new DOMDocument();
-    $dom->loadHTMLFile($path);
-
-    $xml = simplexml_import_dom($dom);
-
-    $con = json_encode($xml);
+    $xmlfile = file_get_contents($path);
     
+    // Convert xml string into an object
+    $new = simplexml_load_string($path);
+    $con = json_encode($xml);
     // Convert into associative array
     $newArr = json_decode($con, true);
     $rawarray=$newArr['channel']['item'];
