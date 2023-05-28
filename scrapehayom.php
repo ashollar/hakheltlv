@@ -8,5 +8,7 @@
 
     $xml = simplexml_import_dom($dom);
 
+    print_r($xml);
+
 
 ?>
