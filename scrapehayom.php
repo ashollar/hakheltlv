@@ -9,7 +9,13 @@
 
     $xml = simplexml_import_dom($dom);
 
-    print_r($xml);
+    $con = json_encode($xml);
+    
+    // Convert into associative array
+    $newArr = json_decode($con, true);
+    $rawarray=$newArr['channel']['item'];
+    
+    print_r($rawarray);
 
 
 ?>
