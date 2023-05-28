@@ -9,7 +9,7 @@
 
     $xml = simplexml_import_dom($dom);
 
-    var_dump($xml);
+    print_r(get_object_varsp($xml));
 
 
 ?>
