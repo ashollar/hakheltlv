@@ -4,9 +4,8 @@
     $path="https://chabadlibrary.org/books/admur/hymym/".$month."/".$day.".htm";
 
     $xmlfile = file_get_contents($path);
-    
     // Convert xml string into an object
-    $new = simplexml_load_string($path);
+    $new = simplexml_load_string($xmlfile);
     $con = json_encode($xml);
     // Convert into associative array
     $newArr = json_decode($con, true);
