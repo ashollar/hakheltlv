@@ -5,11 +5,11 @@
     echo $path;
 
     $dom = new DOMDocument();
-    @$dom->loadHTMLFile($path);
+    $dom->loadHTMLFile($path);
 
     $xml = simplexml_import_dom($dom);
 
-    print_r(get_object_varsp($xml));
+    print_r($xml);
 
 
 ?>
