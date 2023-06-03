@@ -267,7 +267,7 @@ function zmanim(){
 
 
 
-    return $zmanim;
+    return $keyedarray;
     
 
 }
