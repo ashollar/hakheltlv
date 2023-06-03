@@ -22,7 +22,6 @@ foreach ($raw as $item){
 }
 ?>
 </p>
-<img src="rebbe.jpg">
 </div >
 </body>
 </html>
