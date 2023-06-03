@@ -256,6 +256,17 @@ function zmanim(){
 
     }
 
+    $keyedarray=array();
+    foreach($zmanim as $zman){
+        $name=$zman['name'];
+        $time=$zman['time'];
+        $category=$zman['category'];
+        $keyedarray[$name]=array($name,$time,$category);
+
+    }
+
+
+
     return $zmanim;
     
 
