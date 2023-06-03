@@ -261,7 +261,7 @@ function zmanim(){
         $name=$zman['name'];
         $time=$zman['time'];
         $category=$zman['category'];
-        $keyedarray[$name]=array($name,$time,$category);
+        $keyedarray[$name]=array('name'=>$name,'time'=>$time,'category'=>$category);
 
     }
 
