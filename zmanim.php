@@ -18,7 +18,7 @@ $raw=zmanim();
 //print_r($raw);
 
 foreach ($raw as $item){
-    echo "<div style='display:grid;border-radius:10px;box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);bbackground-color: rgba(255,255,255,.8);margin:20px;'>";
+    echo "<div style='display:grid;grid-columns:2;border-radius:10px;box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);bbackground-color: rgba(255,255,255,.8);margin:20px;'>";
     foreach ($item as $detail){
         
         echo "<div>".$detail."</div>";
