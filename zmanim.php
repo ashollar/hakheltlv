@@ -18,12 +18,13 @@ $raw=zmanim();
 //print_r($raw);
 
 foreach ($raw as $item){
+    echo "<div style='background-color:lightgrey;margin:20px;'>";
     foreach ($item as $detail){
-        echo "<div style='background-color:lightgrey;margin:20px;'>";
+        
         echo $detail."\n<br>";
-        echo "</div>";
+        
     }
-    echo "<HR>";
+    echo "</div>";
 }
 ?>
 </p>
