@@ -19,7 +19,9 @@ $raw=zmanim();
 
 foreach ($raw as $item){
     foreach ($item as $detail){
+        echo "<div style='background-color:grey;'>";
         echo $detail."\n<br>";
+        echo "</div>";
     }
     echo "<HR>";
 }
