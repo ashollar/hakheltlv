@@ -15,7 +15,7 @@
 
 $raw=zmanim();
 
-//print_r($raw);
+print_r($raw);
 
 foreach ($raw as $item){
     echo "<div style='display:grid;margin:0px;'>";
