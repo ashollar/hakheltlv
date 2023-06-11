@@ -14,8 +14,8 @@
  <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
  <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
 
- <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
- <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
+ <H2 style="margin:0px;">חצות (היום) </H2>
+ <H1 style="margin:0px;"><?php echo $raw['חצות (היום) ']['time'];?></H1>
 
  <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
  <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
