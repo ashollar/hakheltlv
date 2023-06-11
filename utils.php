@@ -231,7 +231,7 @@ function newrow($database,$table,$id=''){
     print_r($columns);
 }
 function zmanim(){
-    $path = "http://he.chabad.org/tools/rss/zmanim.xml?locationId=531&locationType=1&bDef=0&before=22";
+    $path = "http://www.chabad.org/tools/rss/zmanim.xml?locationid=531&locationtype=1";
     
     // Read entire file into string
     $xmlfile = file_get_contents($path);
