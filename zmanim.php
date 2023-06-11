@@ -9,7 +9,7 @@
  <body style="font-size:80px;text-align:center;margin:0px;height:100vh;">
  <div style='background-image:url("background2.jpg.jpg");width:100%;height:100%;margin:0px;'>
 
- <H1><?php $raw=zmanim(); echo $raw['סוף זמן קריאת שמע'] ?></H1>
+ <H1><?php $raw=zmanim(); $keys=array_keys($raw); print_r($keys);?></H1>
 
 </div >
 </body>
