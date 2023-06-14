@@ -24,9 +24,6 @@
  <H2 style="margin:0px;">צאת הכוכבים</H2>
  <H1 style="margin:0px;"><?php echo $raw['לילה (צאת הכוכבים) ']['time'];?></H1>
 
- <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
- <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
-
  <H2 style="margin:0px;">חצות</H2>
  <H1 style="margin:0px;"><?php echo $raw['חצות הלילה (הלילה) ']['time'];?></H1>
 
