@@ -17,11 +17,12 @@
  <H2 style="margin:0px;">חצות היום</H2>
  <H1 style="margin:0px;"><?php echo $raw['חצות (היום) ']['time'];?></H1>
 
- <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
- <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
+ <H2 style="margin:0px;">שקיעת החמה</H2>
+ <H1 style="margin:0px;"><?php echo $raw['שקיעת החמה']['time'];?></H1>
 
- <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
- <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
+ 
+ <H2 style="margin:0px;"></H2>
+ <H1 style="margin:0px;"><?php echo $raw['לילה (צאת הכוכבים) ']['time'];?></H1>
 
  <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
  <H1 style="margin:0px;"><?php echo $raw['סוף זמן קריאת שמע ']['time'];?></H1>
