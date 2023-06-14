@@ -18,7 +18,7 @@
  <H1 style="margin:0px;"><?php echo $raw['חצות (היום) ']['time'];?></H1>
 
  <H2 style="margin:0px;">שקיעת החמה</H2>
- <H1 style="margin:0px;"><?php echo $raw['שקיעת החמה']['time'];?></H1>
+ <H1 style="margin:0px;"><?php echo $raw['שקיעת החמה (שקיעה) ']['time'];?></H1>
 
  
  <H2 style="margin:0px;">צאת הכוכבים</H2>
