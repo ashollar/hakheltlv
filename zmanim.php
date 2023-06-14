@@ -21,7 +21,7 @@
  <H1 style="margin:0px;"><?php echo $raw['שקיעת החמה']['time'];?></H1>
 
  
- <H2 style="margin:0px;"></H2>
+ <H2 style="margin:0px;">צאת הכוכבים</H2>
  <H1 style="margin:0px;"><?php echo $raw['לילה (צאת הכוכבים) ']['time'];?></H1>
 
  <H2 style="margin:0px;">סוף זמן קריאת שמע</H2>
