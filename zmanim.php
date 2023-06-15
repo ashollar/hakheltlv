@@ -5,7 +5,7 @@
     <?php include "utils.php"?>
     <meta name="viewport" content="minimal-ui">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php $raw=zmanim(); $keys=array_keys($raw);zmanimhebcal("2023-06-15");?>
+    <?php $raw=zmanim(); $keys=array_keys($raw);?>
   </head>
  <body style="font-size:80px;text-align:center;margin:0px;height:100vh;">
  
