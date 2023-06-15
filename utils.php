@@ -280,13 +280,6 @@ function zmanimhebcal($date){
     
 
 }
-function chabadzman($date){
-    $raw=zmanimhebcal('2023-06-15');
-    $misheyakir=$raw['misheyakirMachmir'];
-    
-
-
-}
 function dailystudy(){
     $path = "https://he.chabad.org/tools/rss/dailystudy_rss.xml";
     
