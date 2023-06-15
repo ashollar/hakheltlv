@@ -271,13 +271,20 @@ function zmanim(){
     
 
 }
-function zmanimhebcal(){
-    $url = "https://www.hebcal.com/zmanim?cfg=json&geonameid=293397&date=2023-06-15&tzid=Asia/Jerusalem";
+function zmanimhebcal($date){
+    $url = "https://www.hebcal.com/zmanim?cfg=json&geonameid=293397&date=".$date."&tzid=Asia/Jerusalem";
     $result = file_get_contents($url);
     $rawzmanim=json_decode($result, true);
     print_r($rawzmanim);
-    // Will dump a beauty json :3
+    return $rawzmanim['times'];
     
+
+}
+function chabadzman($date){
+    $raw=zmanimhebcal('2023-06-15');
+    $misheyakir=$raw['misheyakirMachmir'];
+    $
+
 
 }
 function dailystudy(){
