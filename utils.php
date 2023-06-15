@@ -301,8 +301,7 @@ function dailystudy(){
     foreach($shiurim as $shiur){
         $name=$shiur['name'];
         $content=$shiur['content'];
-        $category=$shiur['category'];
-        $keyedarray[$name]=array('name'=>$name,'content'=>$content,'category'=>$category);
+        $keyedarray[$name]=array('name'=>$name,'content'=>$content);
 
     }
 
