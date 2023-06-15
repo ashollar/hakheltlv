@@ -291,7 +291,7 @@ function dailystudy(){
     $shiurim=array();
     foreach($rawarray as $item){
         $name=explode("-",$item['title'])[0];
-        $shiurim[$name]=explode(":",$item['description'])[1];
+        $shiurim[$name]=$item['description'];
 
     }
 
