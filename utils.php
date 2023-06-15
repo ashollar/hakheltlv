@@ -272,7 +272,7 @@ function zmanim(){
 
 }
 function zmanimhebcal($date){
-    $url = "https://www.hebcal.com/zmanim?cfg=json&geonameid=293397&date=".$date."&tzid=Asia/Jerusalem";
+    $url = "https://www.hebcal.com/zmanim?cfg=json&geonameid=293397&date=".$date."&tzid=Asia/Jerusalem&sec=1";
     $result = file_get_contents($url);
     $rawzmanim=json_decode($result, true);
     print_r($rawzmanim);
@@ -283,7 +283,7 @@ function zmanimhebcal($date){
 function chabadzman($date){
     $raw=zmanimhebcal('2023-06-15');
     $misheyakir=$raw['misheyakirMachmir'];
-    $
+    
 
 
 }
