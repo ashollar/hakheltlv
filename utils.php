@@ -300,8 +300,8 @@ function dailystudy(){
     //print_r($rawarray);
     $shiurim=array();
     foreach($rawarray as $item){
-        $name=explode(":",$item['title'])[1];
-        $shiurim[$name]=$item['description'];
+        $name=$item['title'];
+        $shiurim[$name]=explode(":",$item['description'])[1];;
 
     }
 
