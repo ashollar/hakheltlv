@@ -288,8 +288,27 @@ function dailystudy(){
     $rawarray=$newArr['channel']['item'];
     //select useful data and add to new array
     //print_r($rawarray);
-    return $rawarray;
-    
+    $shiurim=array();
+    foreach($rawarray as $item){
+        $name=explode("-",$item['title'])[0];
+        $data=array('name'=>$name,'time'=>$item['category']);
+
+        array_push($shiurim,$data);
+
+    }
+
+    $keyedarray=array();
+    foreach($shiurim as $shiur){
+        $name=$shiur['name'];
+        $time=$shiur['time'];
+        $category=$shiur['category'];
+        $keyedarray[$name]=array('name'=>$name,'time'=>$time,'category'=>$category);
+
+    }
+
+
+
+    return $keyedarray;
     
 
 }
