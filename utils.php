@@ -291,7 +291,7 @@ function dailystudy(){
     $shiurim=array();
     foreach($rawarray as $item){
         $name=explode("-",$item['title'])[0];
-        $data=array('name'=>$name,'time'=>$item['category']);
+        $data=array('name'=>$name,'content'=>$item['description']);
 
         array_push($shiurim,$data);
 
@@ -300,9 +300,9 @@ function dailystudy(){
     $keyedarray=array();
     foreach($shiurim as $shiur){
         $name=$shiur['name'];
-        $time=$shiur['time'];
+        $content=$shiur['content'];
         $category=$shiur['category'];
-        $keyedarray[$name]=array('name'=>$name,'time'=>$time,'category'=>$category);
+        $keyedarray[$name]=array('name'=>$name,'content'=>$content,'category'=>$category);
 
     }
 
