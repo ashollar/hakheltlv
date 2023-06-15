@@ -12,7 +12,7 @@
 
 
  <H2 style="margin:0px;"></H2>
- <H1 style="margin:0px;"><?php echo $raw['']['time'];?></H1>
+ <H1 style="margin:0px;"><?php echo $raw['Daily Chumash with Rashi']['content'];?></H1>
 
  <H2 style="margin:0px;"></H2>
  <H1 style="margin:0px;"><?php echo $raw['']['time'];?></H1>
