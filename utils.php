@@ -274,8 +274,10 @@ function zmanim(){
 function zmanimhebcal(){
     $url = "https://www.hebcal.com/zmanim?cfg=json&geonameid=293397&date=2023-06-15&tzid=Asia/Jerusalem";
     $result = file_get_contents($url);
+    $rawzmanim=json_decode($result, true);
+    print_r($rawzmanim);
     // Will dump a beauty json :3
-    var_dump(json_decode($result, true));
+    
 
 }
 function dailystudy(){
