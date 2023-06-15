@@ -291,23 +291,12 @@ function dailystudy(){
     $shiurim=array();
     foreach($rawarray as $item){
         $name=explode("-",$item['title'])[0];
-        $data=array('name'=>$name,'content'=>$item['description']);
-
-        array_push($shiurim,$data);
-
-    }
-
-    $keyedarray=array();
-    foreach($shiurim as $shiur){
-        $name=$shiur['name'];
-        $content=$shiur['content'];
-        $keyedarray[$name]=array('name'=>$name,'content'=>$content);
+        $shiurim[$name]=$item['description'];
 
     }
 
 
-
-    return $keyedarray;
+    return $shiurim;
     
 
 }
