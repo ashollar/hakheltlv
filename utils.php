@@ -290,7 +290,7 @@ function dailystudy(){
     //print_r($rawarray);
     $shiurim=array();
     foreach($rawarray as $item){
-        $name=explode("-",$item['title'])[0];
+        $name=$item['title'];
         $shiurim[$name]=$item['description'];
 
     }
