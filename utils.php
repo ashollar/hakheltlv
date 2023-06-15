@@ -271,6 +271,28 @@ function zmanim(){
     
 
 }
+function dailystudy(){
+    $path = "https://he.chabad.org/tools/rss/dailystudy_rss.xml";
+    
+    // Read entire file into string
+    $xmlfile = file_get_contents($path);
+    
+    // Convert xml string into an object
+    $new = simplexml_load_string($xmlfile);
+    
+    // Convert into json
+    $con = json_encode($new);
+    
+    // Convert into associative array
+    $newArr = json_decode($con, true);
+    $rawarray=$newArr['channel']['item'];
+    //select useful data and add to new array
+    //print_r($rawarray);
+    return $rawarray;
+    
+    
+
+}
 
 function readdirectory($path){
     $dh = opendir($path);

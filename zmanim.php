@@ -28,5 +28,6 @@
  <H1 style="margin:0px;"><?php echo $raw['חצות הלילה (הלילה) ']['time'];?></H1>
 
 </div >
+<?php print_r(dailystudy()); ?>
 </body>
 </html>
