@@ -272,17 +272,10 @@ function zmanim(){
 
 }
 function zmanimhebcal(){
-    $url_name = "https://www.hebcal.com/zmanim?cfg=json&geonameid=293397&date=2023-06-15&tzid=Asia/Jerusalem";
-
-    $ch_session = curl_init();
-
-    curl_setopt($ch_session, CURLOPT_RETURNTRANSFER, 1);
-
-    curl_setopt($ch_session, CURLOPT_URL, $url);
-
-    $result_url = curl_exec($ch_session);
-
-    echo $result_url;
+    $url = "https://www.hebcal.com/zmanim?cfg=json&geonameid=293397&date=2023-06-15&tzid=Asia/Jerusalem";
+    $result = file_get_contents($url);
+    // Will dump a beauty json :3
+    var_dump(json_decode($result, true));
 
 }
 function dailystudy(){
