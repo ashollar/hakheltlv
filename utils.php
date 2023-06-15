@@ -280,6 +280,7 @@ function zmanimhebcal($date){
     
 
 }
+
 function dailystudy(){
     $path = "https://he.chabad.org/tools/rss/dailystudy_rss.xml";
     
@@ -299,7 +300,7 @@ function dailystudy(){
     //print_r($rawarray);
     $shiurim=array();
     foreach($rawarray as $item){
-        $name=$item['title'];
+        $name=explode(":",$item['title'])[1];
         $shiurim[$name]=$item['description'];
 
     }
