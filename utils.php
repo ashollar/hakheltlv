@@ -271,6 +271,20 @@ function zmanim(){
     
 
 }
+function zmanimhebcal(){
+    $url_name = "https://www.hebcal.com/zmanim?cfg=json&geonameid=293397&date=2023-06-15&tzid=Asia/Jerusalem";
+
+    $ch_session = curl_init();
+
+    curl_setopt($ch_session, CURLOPT_RETURNTRANSFER, 1);
+
+    curl_setopt($ch_session, CURLOPT_URL, $url);
+
+    $result_url = curl_exec($ch_session);
+
+    echo $result_url;
+
+}
 function dailystudy(){
     $path = "https://he.chabad.org/tools/rss/dailystudy_rss.xml";
     
