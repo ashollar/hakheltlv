@@ -12,22 +12,22 @@
 
 
  <H2 style="margin:0px;"></H2>
- <H1 style="margin:0px;"><?php echo $raw['[Daily Chumash with Rashi]']['content'];?></H1>
+ <H1 style="margin:0px;"><?php echo $raw['Daily Chumash with Rashi'];?></H1>
 
  <H2 style="margin:0px;"></H2>
- <H1 style="margin:0px;"><?php echo $raw['Daily Tehilim - Psalms']['content'];?></H1>
+ <H1 style="margin:0px;"><?php echo $raw['Daily Tehilim - Psalms'];?></H1>
  
  <H2 style="margin:0px;"></H2>
- <H1 style="margin:0px;"><?php echo $raw['Daily Tanya']['content'];?></H1>
+ <H1 style="margin:0px;"><?php echo $raw['Daily Tanya'];?></H1>
 
  <H2 style="margin:0px;"></H2>
- <H1 style="margin:0px;"><?php echo $raw['Daily Rambam - 1 Chapter Per Day (Hebrew)']['content'];?></H1>
+ <H1 style="margin:0px;"><?php echo $raw['Daily Rambam - 1 Chapter Per Day (Hebrew)'];?></H1>
 
  <H2 style="margin:0px;"></H2>
- <H1 style="margin:0px;"><?php echo $raw['Daily Rambam - 3 Chapter Per Day (Hebrew)']['content'];?></H1>
+ <H1 style="margin:0px;"><?php echo $raw['Daily Rambam - 3 Chapter Per Day (Hebrew)'];?></H1>
 
  <H2 style="margin:0px;"></H2>
- <H1 style="margin:0px;"><?php echo $raw['Daily Mitzvah - Sefer Hamitzvot']['content'];?></H1>
+ <H1 style="margin:0px;"><?php echo $raw['Daily Mitzvah - Sefer Hamitzvot'];?></H1>
 
 </div >
 <?php print_r(dailystudy()); ?>
