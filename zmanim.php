@@ -9,19 +9,19 @@
 
   </head>
   <script>
-function startTime() {
-  const today = new Date();
-  let h = today.getHours();
-  let m = today.getMinutes();
-  m = checkTime(m);
-  document.getElementById('txt').innerHTML =  h + ":" + m ;
-  setTimeout(startTime, 1000);
-}
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      m = checkTime(m);
+      document.getElementById('txt').innerHTML =  h + ":" + m ;
+      setTimeout(startTime, 1000);
+    }
 
-function checkTime(i) {
-  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
-  return i;
-}
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
 </script>
  <body onload="startTime()" style="font-size:80px;text-align:center;margin:0px;height:100vh;">
  
