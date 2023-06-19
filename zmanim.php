@@ -11,7 +11,8 @@
   <script>
     function initialize(){
       startTime();
-      setTimeout(updater, 10000);
+      //check for updates every minute
+      setTimeout(updater, 60000);
     }
     function updater(){
       location.reload();
