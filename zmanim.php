@@ -11,7 +11,7 @@
   <script>
     function initialize(){
       startTime();
-      setTimeout(location.reload, 60000);
+      setTimeout(location.reload, 10000);
     }
     function startTime() {
       const today = new Date();
