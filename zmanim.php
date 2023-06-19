@@ -9,6 +9,11 @@
 
   </head>
   <script>
+    function initialize(){
+      startTime();
+      location.reload();
+      setTimeout(location.reload(), 60000);
+    }
     function startTime() {
       const today = new Date();
       let h = today.getHours();
@@ -23,7 +28,7 @@
       return i;
     }
 </script>
- <body onload="startTime()" style="font-size:80px;text-align:center;margin:0px;height:100vh;">
+ <body onload="initialize()" style="font-size:80px;text-align:center;margin:0px;height:100vh;">
  
  <div style='background-image:url("background2.jpg.jpg");width:100%;height:100%;margin:0px;'>
  
