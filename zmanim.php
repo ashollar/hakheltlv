@@ -11,7 +11,7 @@
   <script>
     function initialize(){
       startTime();
-      setTimeout(upater, 10000);
+      setTimeout(updater, 10000);
     }
     function updater(){
       location.reload();
