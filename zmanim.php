@@ -11,7 +11,6 @@
   <script>
     function initialize(){
       startTime();
-      location.reload();
       setTimeout(location.reload(), 60000);
     }
     function startTime() {
